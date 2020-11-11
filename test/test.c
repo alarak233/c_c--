@@ -39,5 +39,15 @@ int main(void)
    printf("\nstarting:\n");
    one_three();
    printf("done!\n");
+
+   float salary;
+   printf("\ayour salary:");
+   printf("$_______\b\b\b\b\b\b\b");
+   scanf("%f",&salary);
+   getchar();
+   printf("\t$%.2f a month is $%.2f a year.",salary,salary * 12);
+   printf("\rGee!\n");
+   getchar();
+
    return 0;
 }
